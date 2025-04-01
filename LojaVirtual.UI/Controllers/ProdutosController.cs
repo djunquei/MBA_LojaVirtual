@@ -21,7 +21,6 @@ namespace LojaVirtual.UI.Controllers
             _context = context;
         }
 
-        // GET: Produtos
         public async Task<IActionResult> Index()
         {
             Guid userId = new Guid(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
@@ -40,11 +39,10 @@ namespace LojaVirtual.UI.Controllers
                 _context.SaveChanges();
             }
 
-            var lojaVirtualDbContext = _context.Produtos.Include(p => p.Categoria).Include(p => p.Vendedor);
+            var lojaVirtualDbContext = _context.Produtos.Where(x => x.VendedorId == userId).Include(p => p.Categoria).Include(p => p.Vendedor);
             return View(await lojaVirtualDbContext.ToListAsync());
         }
 
-        // GET: Produtos/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -64,7 +62,6 @@ namespace LojaVirtual.UI.Controllers
             return View(produto);
         }
 
-        // GET: Produtos/Create
         public IActionResult Create()
         {
             ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Descricao");
@@ -72,9 +69,6 @@ namespace LojaVirtual.UI.Controllers
             return View();
         }
 
-        // POST: Produtos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Titulo,Descricao,Valor,Imagem,CategoriaId,VendedorId")] Produto produto)
@@ -94,7 +88,6 @@ namespace LojaVirtual.UI.Controllers
             return View(produto);
         }
 
-        // GET: Produtos/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -112,9 +105,6 @@ namespace LojaVirtual.UI.Controllers
             return View(produto);
         }
 
-        // POST: Produtos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Titulo,Descricao,Valor,Imagem,CategoriaId,VendedorId")] Produto produto)
@@ -149,7 +139,6 @@ namespace LojaVirtual.UI.Controllers
             return View(produto);
         }
 
-        // GET: Produtos/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -169,7 +158,6 @@ namespace LojaVirtual.UI.Controllers
             return View(produto);
         }
 
-        // POST: Produtos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

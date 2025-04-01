@@ -410,3 +410,4 @@ C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.UI\obj\Debug\net9.0\refint\L
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.UI\obj\Debug\net9.0\LojaVirtual.UI.pdb
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.UI\obj\Debug\net9.0\LojaVirtual.UI.genruntimeconfig.cache
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.UI\obj\Debug\net9.0\ref\LojaVirtual.UI.dll
+C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.UI\obj\Debug\net9.0\LojaVirtual.UI.sourcelink.json

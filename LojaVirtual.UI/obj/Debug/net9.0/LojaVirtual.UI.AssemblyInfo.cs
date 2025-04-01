@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LojaVirtual.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61583295b22ba830ec72e67c202bcedb59105dc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("LojaVirtual.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LojaVirtual.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
