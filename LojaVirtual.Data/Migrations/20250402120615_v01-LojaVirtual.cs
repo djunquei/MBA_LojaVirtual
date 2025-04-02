@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -29,10 +28,8 @@ namespace LojaVirtual.Data.Migrations
                 name: "Vendedores",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Nome = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    UltimoNome = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    Sexo = table.Column<string>(type: "nvarchar(1)", maxLength: 1, nullable: false)
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Nome = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -50,7 +47,7 @@ namespace LojaVirtual.Data.Migrations
                     Valor = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Imagem = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     CategoriaId = table.Column<int>(type: "int", nullable: false),
-                    VendedorId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                    VendedorId = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {

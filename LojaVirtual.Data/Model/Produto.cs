@@ -32,7 +32,7 @@ namespace LojaVirtual.Data.Model
 
         [ForeignKey("Vendedor")]
         [Required(ErrorMessage = "O vendedor é obrigatória")]
-        public Guid VendedorId { get; set; }
+        public string VendedorId { get; set; }
 
 
         public Categoria Categoria { get; set; }

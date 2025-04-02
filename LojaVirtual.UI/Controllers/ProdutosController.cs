@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LojaVirtual.Data;
@@ -23,22 +19,7 @@ namespace LojaVirtual.UI.Controllers
 
         public async Task<IActionResult> Index()
         {
-            Guid userId = new Guid(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
-            Vendedor vendedor = _context.Vendedores.Find(userId);
-
-            if (vendedor == null)
-            {
-                _context.Vendedores.Add(new Vendedor
-                {
-                    Id = userId,
-                    Nome = "Diego",
-                    UltimoNome = "Junqueira",
-                    Sexo = "M"
-                });
-
-                _context.SaveChanges();
-            }
-
+            string userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
             var lojaVirtualDbContext = _context.Produtos.Where(x => x.VendedorId == userId).Include(p => p.Categoria).Include(p => p.Vendedor);
             return View(await lojaVirtualDbContext.ToListAsync());
         }
@@ -78,7 +59,7 @@ namespace LojaVirtual.UI.Controllers
             ModelState.Remove("Categoria");
             if (ModelState.IsValid)
             {
-                produto.VendedorId = new Guid(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
+                produto.VendedorId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
                 _context.Add(produto);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
