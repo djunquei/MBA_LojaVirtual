@@ -36,6 +36,96 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LojaVirtual.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LojaVirtual.UI</BasePath>
+      <RelativePath>images/2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a0idyumt8t</Fingerprint>
+      <Integrity>atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LojaVirtual.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LojaVirtual.UI</BasePath>
+      <RelativePath>images/4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>flymz2srli</Fingerprint>
+      <Integrity>XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LojaVirtual.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LojaVirtual.UI</BasePath>
+      <RelativePath>images/83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>flymz2srli</Fingerprint>
+      <Integrity>XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LojaVirtual.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LojaVirtual.UI</BasePath>
+      <RelativePath>images/a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pf931ert6t</Fingerprint>
+      <Integrity>eyQR/3vTC3iawNkhnBaLmqKG7T/lrtMXZ3h2o7a6Nh0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LojaVirtual.UI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LojaVirtual.UI</BasePath>
+      <RelativePath>images/ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ut5jj7fl8k</Fingerprint>
+      <Integrity>vrxLYbk5OKyIwztgdwMQOnUuPd1aVwJPFv6kUIReNzY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LojaVirtual.UI</SourceId>

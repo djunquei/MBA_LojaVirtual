@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using LojaVirtual.Data;
 using LojaVirtual.Data.Model;
 using Microsoft.AspNetCore.Authorization;
+using LojaVirtual.UI.Models;
 
 namespace LojaVirtual.UI.Controllers
 {
@@ -45,27 +46,47 @@ namespace LojaVirtual.UI.Controllers
 
         public IActionResult Create()
         {
-            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Descricao");
+            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Titulo");
             ViewData["VendedorId"] = new Guid(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Titulo,Descricao,Valor,Imagem,CategoriaId,VendedorId")] Produto produto)
+        public async Task<IActionResult> Create([Bind("Id,Titulo,Descricao,Valor,Estoque,Imagem,CategoriaId")] ProdutoViewModel produto)
         {
-            ModelState.Remove("VendedorId");
-            ModelState.Remove("Vendedor");
-            ModelState.Remove("Categoria");
+            Produto produtoDb = new Produto();
             if (ModelState.IsValid)
             {
-                produto.VendedorId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
-                _context.Add(produto);
+                if (produto.Imagem != null && produto.Imagem.Length > 0)
+                {
+                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + produto.Imagem.FileName;
+                    var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    if (!Directory.Exists(uploadsFolder))
+                        Directory.CreateDirectory(uploadsFolder);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await produto.Imagem.CopyToAsync(stream);
+                    }
+
+                    produtoDb.Imagem = "/images/" + uniqueFileName;
+                }
+
+                produtoDb.VendedorId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+                produtoDb.Titulo = produto.Titulo;
+                produtoDb.Descricao = produto.Descricao;
+                produtoDb.Valor = produto.Valor;
+                produtoDb.Estoque = produto.Estoque;
+                produtoDb.CategoriaId = produto.CategoriaId;
+
+                _context.Add(produtoDb);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Descricao", produto.CategoriaId);
-            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Nome", produto.VendedorId);
+            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Titulo");
             return View(produto);
         }
 
@@ -81,16 +102,32 @@ namespace LojaVirtual.UI.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Descricao", produto.CategoriaId);
-            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Nome", produto.VendedorId);
-            return View(produto);
+
+            ProdutoViewModel produtoViewModel = new ProdutoViewModel();
+            produtoViewModel.Id = produto.Id;
+            produtoViewModel.Titulo = produto.Titulo;
+            produtoViewModel.Descricao = produto.Descricao;
+            produtoViewModel.Valor = produto.Valor;
+            produtoViewModel.Estoque = produto.Estoque;
+            produtoViewModel.CategoriaId = produto.CategoriaId;
+
+            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Titulo");
+            
+            return View(produtoViewModel);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Titulo,Descricao,Valor,Imagem,CategoriaId,VendedorId")] Produto produto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Titulo,Descricao,Valor,Estoque,Imagem,CategoriaId")] ProdutoViewModel produto)
         {
             if (id != produto.Id)
+            {
+                return NotFound();
+            }
+
+            var produtoDb = _context.Produtos.Find(id);
+
+            if (produtoDb == null)
             {
                 return NotFound();
             }
@@ -99,7 +136,30 @@ namespace LojaVirtual.UI.Controllers
             {
                 try
                 {
-                    _context.Update(produto);
+                    if (produto.Imagem != null && produto.Imagem.Length > 0)
+                    {
+                        var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+                        var uniqueFileName = Guid.NewGuid().ToString() + "_" + produto.Imagem.FileName;
+                        var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                        if (!Directory.Exists(uploadsFolder))
+                            Directory.CreateDirectory(uploadsFolder);
+
+                        using (var stream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await produto.Imagem.CopyToAsync(stream);
+                        }
+
+                        produtoDb.Imagem = "/images/" + uniqueFileName;
+                    }
+
+                    produtoDb.Titulo = produto.Titulo;
+                    produtoDb.Descricao = produto.Descricao;
+                    produtoDb.Valor = produto.Valor;
+                    produtoDb.Estoque = produto.Estoque;
+                    produtoDb.CategoriaId = produto.CategoriaId;
+
+                    _context.Update(produtoDb);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -115,8 +175,7 @@ namespace LojaVirtual.UI.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Descricao", produto.CategoriaId);
-            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Nome", produto.VendedorId);
+            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Titulo", produto.CategoriaId);
             return View(produto);
         }
 

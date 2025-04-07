@@ -141,6 +141,11 @@ namespace LojaVirtual.UI.Controllers
             var categoria = await _context.Categorias.FindAsync(id);
             if (categoria != null)
             {
+                if (_context.Produtos.Any(x => x.CategoriaId == id))
+                {
+                    ModelState.AddModelError("Id", "Erro ao tentar excluir esta categoria, existem produtos associados a ela.");
+                    return View(categoria);
+                }
                 _context.Categorias.Remove(categoria);
             }
 

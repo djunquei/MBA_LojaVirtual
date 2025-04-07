@@ -5,7 +5,7 @@
 namespace LojaVirtual.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class v01LojaVirtual : Migration
+    public partial class V01LojaVirtual : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -14,10 +14,10 @@ namespace LojaVirtual.Data.Migrations
                 name: "Categorias",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Titulo = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    Descricao = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Titulo = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
+                    Descricao = table.Column<string>(type: "TEXT", maxLength: 500, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -28,8 +28,8 @@ namespace LojaVirtual.Data.Migrations
                 name: "Vendedores",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Nome = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false)
+                    Id = table.Column<string>(type: "TEXT", nullable: false),
+                    Nome = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -40,14 +40,15 @@ namespace LojaVirtual.Data.Migrations
                 name: "Produtos",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Titulo = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    Descricao = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Titulo = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
+                    Descricao = table.Column<string>(type: "TEXT", maxLength: 500, nullable: false),
                     Valor = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Imagem = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
-                    CategoriaId = table.Column<int>(type: "int", nullable: false),
-                    VendedorId = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                    Estoque = table.Column<int>(type: "int", nullable: false),
+                    Imagem = table.Column<string>(type: "TEXT", maxLength: 500, nullable: false),
+                    CategoriaId = table.Column<int>(type: "INTEGER", nullable: false),
+                    VendedorId = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {

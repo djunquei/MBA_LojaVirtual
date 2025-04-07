@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg",
+      "PackagePath": "staticwebassets\\images\\2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg",
+      "PackagePath": "staticwebassets\\images\\4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg",
+      "PackagePath": "staticwebassets\\images\\83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg",
+      "PackagePath": "staticwebassets\\images\\a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg",
+      "PackagePath": "staticwebassets\\images\\ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg"
+    },
+    {
       "Id": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

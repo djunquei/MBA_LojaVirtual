@@ -62,6 +62,11 @@ C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.UI\wwwroot\lib\bootstrap\dis
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.UI\wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg
+wwwroot\images\4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg
+wwwroot\images\83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg
+wwwroot\images\a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg
+wwwroot\images\ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

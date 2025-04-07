@@ -6,8 +6,8 @@ C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.Data\obj\Debug\net9.0\LojaVi
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.Data\obj\Debug\net9.0\LojaVirtual.Data.AssemblyInfoInputs.cache
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.Data\obj\Debug\net9.0\LojaVirtual.Data.AssemblyInfo.cs
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.Data\obj\Debug\net9.0\LojaVirtual.Data.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.Data\obj\Debug\net9.0\LojaVirtual.Data.sourcelink.json
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.Data\obj\Debug\net9.0\LojaVirtual.Data.dll
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.Data\obj\Debug\net9.0\refint\LojaVirtual.Data.dll
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.Data\obj\Debug\net9.0\LojaVirtual.Data.pdb
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.Data\obj\Debug\net9.0\ref\LojaVirtual.Data.dll
-C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.Data\obj\Debug\net9.0\LojaVirtual.Data.sourcelink.json

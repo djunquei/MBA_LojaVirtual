@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jOJGVc39mVSu74WHKdPzyI7OpZ62HX1o2/DPbWKK2yU=",
+  "Hash": "kZvFuI7lf/yOm1xO1bdn984fYuiF4tPqmQFtzV83uXk=",
   "Source": "LojaVirtual.UI",
   "BasePath": "_content/LojaVirtual.UI",
   "Mode": "Default",
@@ -4068,6 +4068,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg",
+      "SourceId": "LojaVirtual.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\",
+      "BasePath": "_content/LojaVirtual.UI",
+      "RelativePath": "images/2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a0idyumt8t",
+      "Integrity": "atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg",
+      "SourceId": "LojaVirtual.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\",
+      "BasePath": "_content/LojaVirtual.UI",
+      "RelativePath": "images/4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "flymz2srli",
+      "Integrity": "XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg",
+      "SourceId": "LojaVirtual.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\",
+      "BasePath": "_content/LojaVirtual.UI",
+      "RelativePath": "images/83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "flymz2srli",
+      "Integrity": "XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg",
+      "SourceId": "LojaVirtual.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\",
+      "BasePath": "_content/LojaVirtual.UI",
+      "RelativePath": "images/a73ef993-ce30-43e5-8424-9842fef4d601_iphone16#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pf931ert6t",
+      "Integrity": "eyQR/3vTC3iawNkhnBaLmqKG7T/lrtMXZ3h2o7a6Nh0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg",
+      "SourceId": "LojaVirtual.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\",
+      "BasePath": "_content/LojaVirtual.UI",
+      "RelativePath": "images/ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ut5jj7fl8k",
+      "Integrity": "vrxLYbk5OKyIwztgdwMQOnUuPd1aVwJPFv6kUIReNzY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\js\\site.js",
@@ -14550,6 +14655,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "images/2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.a0idyumt8t.jpeg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:46:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a0idyumt8t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:46:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.flymz2srli.jpg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:45:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "flymz2srli"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY="
+        }
+      ]
+    },
+    {
+      "Route": "images/4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:45:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY="
+        }
+      ]
+    },
+    {
+      "Route": "images/83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.flymz2srli.jpg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "flymz2srli"
+        },
+        {
+          "Name": "label",
+          "Value": "images/83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY="
+        }
+      ]
+    },
+    {
+      "Route": "images/83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY="
+        }
+      ]
+    },
+    {
+      "Route": "images/a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "217238"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eyQR/3vTC3iawNkhnBaLmqKG7T/lrtMXZ3h2o7a6Nh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:45:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eyQR/3vTC3iawNkhnBaLmqKG7T/lrtMXZ3h2o7a6Nh0="
+        }
+      ]
+    },
+    {
+      "Route": "images/a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.pf931ert6t.jpg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "217238"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eyQR/3vTC3iawNkhnBaLmqKG7T/lrtMXZ3h2o7a6Nh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:45:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pf931ert6t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eyQR/3vTC3iawNkhnBaLmqKG7T/lrtMXZ3h2o7a6Nh0="
+        }
+      ]
+    },
+    {
+      "Route": "images/ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vrxLYbk5OKyIwztgdwMQOnUuPd1aVwJPFv6kUIReNzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:45:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vrxLYbk5OKyIwztgdwMQOnUuPd1aVwJPFv6kUIReNzY="
+        }
+      ]
+    },
+    {
+      "Route": "images/ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.ut5jj7fl8k.jpg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\LojaVirtual.UI\\wwwroot\\images\\ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vrxLYbk5OKyIwztgdwMQOnUuPd1aVwJPFv6kUIReNzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:45:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ut5jj7fl8k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vrxLYbk5OKyIwztgdwMQOnUuPd1aVwJPFv6kUIReNzY="
         }
       ]
     },
@@ -34797,7 +35312,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34850,7 +35365,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34887,7 +35402,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34934,7 +35449,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34995,7 +35510,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35040,7 +35555,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35095,7 +35610,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35156,7 +35671,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35201,7 +35716,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35256,7 +35771,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35309,7 +35824,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35346,7 +35861,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 16:58:11 GMT"
+          "Value": "Sun, 06 Apr 2025 02:36:09 GMT"
         },
         {
           "Name": "Cache-Control",
