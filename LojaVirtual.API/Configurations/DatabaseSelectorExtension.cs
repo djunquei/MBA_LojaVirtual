@@ -1,7 +1,7 @@
 ﻿using LojaVirtual.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace LojaVirtual.API.Configuration
+namespace LojaVirtual.API.Configurations
 {
     public static class DatabaseSelectorExtension
     {

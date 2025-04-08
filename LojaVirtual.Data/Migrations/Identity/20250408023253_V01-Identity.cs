@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace LojaVirtual.UI.Migrations
+namespace LojaVirtual.Data.Migrations.Identity
 {
     /// <inheritdoc />
     public partial class V01Identity : Migration

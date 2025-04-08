@@ -2,19 +2,16 @@
 using LojaVirtual.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace LojaVirtual.Data.Migrations
+namespace LojaVirtual.Data.Migrations.LojaVirtual
 {
     [DbContext(typeof(LojaVirtualDbContext))]
-    [Migration("20250406152557_V01-LojaVirtual")]
-    partial class V01LojaVirtual
+    partial class LojaVirtualDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.3");

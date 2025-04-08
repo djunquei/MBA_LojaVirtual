@@ -3,7 +3,7 @@ using LojaVirtual.Data.Model;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace LojaVirtual.API.Configuration
+namespace LojaVirtual.API.Configurations
 {
     public static class DbMigrationHelperExtension
     {

@@ -20,8 +20,4 @@
     <ProjectReference Include="..\LojaVirtual.Data\LojaVirtual.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Data\Migrations\" />
-  </ItemGroup>
-
 </Project>

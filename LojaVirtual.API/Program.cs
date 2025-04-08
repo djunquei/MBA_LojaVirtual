@@ -1,5 +1,4 @@
-
-using LojaVirtual.API.Configuration;
+using LojaVirtual.API.Configurations;
 using LojaVirtual.API.Models;
 using LojaVirtual.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -47,6 +46,7 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 builder.AddDatabaseSelector();
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddRoles<IdentityRole>()
@@ -93,5 +93,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseDbMigrationHelper();
 
 app.Run();

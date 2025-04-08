@@ -119,3 +119,4 @@ C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.API\obj\Debug\net9.0\refint\
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.API\obj\Debug\net9.0\LojaVirtual.API.pdb
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.API\obj\Debug\net9.0\LojaVirtual.API.genruntimeconfig.cache
 C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.API\obj\Debug\net9.0\ref\LojaVirtual.API.dll
+C:\Users\diego\source\repos\LojaVirtual\LojaVirtual.API\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

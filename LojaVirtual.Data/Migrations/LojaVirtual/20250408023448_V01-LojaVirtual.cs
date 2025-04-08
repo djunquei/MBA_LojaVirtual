@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace LojaVirtual.Data.Migrations
+namespace LojaVirtual.Data.Migrations.LojaVirtual
 {
     /// <inheritdoc />
     public partial class V01LojaVirtual : Migration
