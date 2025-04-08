@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.UI", "LojaVirtual.UI\LojaVirtual.UI.csproj", "{016581F7-9B26-43CF-86A3-C77672E1C54D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.Data", "LojaVirtual.Data\LojaVirtual.Data.csproj", "{AEAB80DB-9A44-4023-A195-BE5774A0B408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.API", "LojaVirtual.API\LojaVirtual.API.csproj", "{70EF4659-B492-4F62-B686-BEAF6A4EA832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AEAB80DB-9A44-4023-A195-BE5774A0B408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEAB80DB-9A44-4023-A195-BE5774A0B408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEAB80DB-9A44-4023-A195-BE5774A0B408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70EF4659-B492-4F62-B686-BEAF6A4EA832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70EF4659-B492-4F62-B686-BEAF6A4EA832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70EF4659-B492-4F62-B686-BEAF6A4EA832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70EF4659-B492-4F62-B686-BEAF6A4EA832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,5 @@
 ﻿using LojaVirtual.Data;
 using LojaVirtual.Data.Model;
-using LojaVirtual.UI.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
