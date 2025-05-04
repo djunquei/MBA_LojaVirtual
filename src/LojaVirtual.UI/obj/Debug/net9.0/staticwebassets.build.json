@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rOoutq/8lyD4sgI8p2913S7I+gFfpWrOrQKLrvZmYhM=",
+  "Hash": "iwfpYWhdXiHS18qhmNFcdh9fElSn3HILwk7dsS/56jc=",
   "Source": "LojaVirtual.Web",
   "BasePath": "_content/LojaVirtual.Web",
   "Mode": "Default",
@@ -2957,12 +2957,12 @@
       "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.3\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\obj\\Debug\\net9.0\\compressed\\onic3gnfls-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\obj\\Debug\\net9.0\\compressed\\onic3gnfls-bcsi8r9dbn.gz",
       "SourceId": "LojaVirtual.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LojaVirtual.Web",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=bcsi8r9dbn}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2971,8 +2971,8 @@
       "RelatedAsset": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "b0a8kwl7xu",
+      "Integrity": "VfeLVJSo6OSEMaaVEXHN9kR/5YBQZQCsmz41akNbj+U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\css\\site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "bcsi8r9dbn",
+      "Integrity": "+4MhlsCVBvZKK+5GW7PwbK8pVS1jbV3V42+a8cQ4+tQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -5521,13 +5521,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\obj\\Debug\\net9.0\\compressed\\onic3gnfls-b9sayid5wm.gz",
+      "Route": "css/site.bcsi8r9dbn.css",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\obj\\Debug\\net9.0\\compressed\\onic3gnfls-bcsi8r9dbn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.002242152466"
         }
       ],
       "ResponseHeaders": [
@@ -5537,15 +5537,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "445"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"VfeLVJSo6OSEMaaVEXHN9kR/5YBQZQCsmz41akNbj+U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 14:10:53 GMT"
+          "Value": "Sun, 04 May 2025 16:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5565,13 +5565,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"+4MhlsCVBvZKK+5GW7PwbK8pVS1jbV3V42+a8cQ4+tQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "bcsi8r9dbn"
         },
         {
           "Name": "label",
@@ -5579,12 +5579,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-+4MhlsCVBvZKK+5GW7PwbK8pVS1jbV3V42+a8cQ4+tQ="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.bcsi8r9dbn.css",
       "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5594,7 +5594,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1060"
         },
         {
           "Name": "Content-Type",
@@ -5602,11 +5602,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"+4MhlsCVBvZKK+5GW7PwbK8pVS1jbV3V42+a8cQ4+tQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 14:10:53 GMT"
+          "Value": "Sun, 04 May 2025 16:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5616,7 +5616,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "bcsi8r9dbn"
         },
         {
           "Name": "label",
@@ -5624,13 +5624,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-+4MhlsCVBvZKK+5GW7PwbK8pVS1jbV3V42+a8cQ4+tQ="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\obj\\Debug\\net9.0\\compressed\\onic3gnfls-b9sayid5wm.gz",
+      "Route": "css/site.bcsi8r9dbn.css.gz",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\obj\\Debug\\net9.0\\compressed\\onic3gnfls-bcsi8r9dbn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5639,7 +5639,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "445"
         },
         {
           "Name": "Content-Type",
@@ -5647,11 +5647,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"VfeLVJSo6OSEMaaVEXHN9kR/5YBQZQCsmz41akNbj+U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 14:10:53 GMT"
+          "Value": "Sun, 04 May 2025 16:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5669,7 +5669,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "bcsi8r9dbn"
         },
         {
           "Name": "label",
@@ -5677,7 +5677,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-VfeLVJSo6OSEMaaVEXHN9kR/5YBQZQCsmz41akNbj+U="
         }
       ]
     },
@@ -5720,12 +5720,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\obj\\Debug\\net9.0\\compressed\\onic3gnfls-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\obj\\Debug\\net9.0\\compressed\\onic3gnfls-bcsi8r9dbn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.002242152466"
         }
       ],
       "ResponseHeaders": [
@@ -5735,15 +5735,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "445"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"VfeLVJSo6OSEMaaVEXHN9kR/5YBQZQCsmz41akNbj+U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 14:10:53 GMT"
+          "Value": "Sun, 04 May 2025 16:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5763,13 +5763,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"+4MhlsCVBvZKK+5GW7PwbK8pVS1jbV3V42+a8cQ4+tQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-+4MhlsCVBvZKK+5GW7PwbK8pVS1jbV3V42+a8cQ4+tQ="
         }
       ]
     },
@@ -5784,7 +5784,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1060"
         },
         {
           "Name": "Content-Type",
@@ -5792,11 +5792,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"+4MhlsCVBvZKK+5GW7PwbK8pVS1jbV3V42+a8cQ4+tQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 14:10:53 GMT"
+          "Value": "Sun, 04 May 2025 16:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5806,13 +5806,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-+4MhlsCVBvZKK+5GW7PwbK8pVS1jbV3V42+a8cQ4+tQ="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\obj\\Debug\\net9.0\\compressed\\onic3gnfls-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\obj\\Debug\\net9.0\\compressed\\onic3gnfls-bcsi8r9dbn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5821,7 +5821,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "445"
         },
         {
           "Name": "Content-Type",
@@ -5829,11 +5829,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"VfeLVJSo6OSEMaaVEXHN9kR/5YBQZQCsmz41akNbj+U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 30 Mar 2025 14:10:53 GMT"
+          "Value": "Sun, 04 May 2025 16:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5851,7 +5851,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-VfeLVJSo6OSEMaaVEXHN9kR/5YBQZQCsmz41akNbj+U="
         }
       ]
     },

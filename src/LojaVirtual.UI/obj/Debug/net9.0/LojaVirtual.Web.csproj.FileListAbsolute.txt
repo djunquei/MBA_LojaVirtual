@@ -357,7 +357,6 @@ C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\comp
 C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\compressed\onic3gnfls-b9sayid5wm.gz
 C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\compressed\nzyg0u3b7e-61n19gt1b8.gz
 C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\compressed\pn8ov5pg4n-xtxxf3hu2r.gz
 C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\compressed\sx6f5y6p2g-bqjiyaj88i.gz
@@ -437,3 +436,4 @@ C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\Loja
 C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\ref\LojaVirtual.Web.dll
 C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\compressed\shhfqcks2g-q6bewlcyvx.gz
 C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\compressed\k0ofhfa4zf-q6bewlcyvx.gz
+C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\obj\Debug\net9.0\compressed\onic3gnfls-bcsi8r9dbn.gz

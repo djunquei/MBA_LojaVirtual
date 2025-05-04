@@ -29,3 +29,30 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.form-group {
+    padding-bottom: 10px;
+}
+
+.limit-text {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.card-title {
+    min-height: 3em;
+}
+
+.card-text {
+    min-height: 4.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
