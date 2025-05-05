@@ -34,5 +34,11 @@ namespace LojaVirtual.Web.Models
         [Required(ErrorMessage = "A categoria é obrigatória")]
         public int CategoriaId { get; set; }
 
+        [NotMapped]
+        public string CategoriaStr { get; set; }
+
+        [NotMapped]
+        public string ImagemUrl { get; set; }
+
     }
 }

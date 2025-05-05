@@ -1,4 +1,4 @@
-﻿@model LojaVirtual.Data.Model.Produto
+﻿@model LojaVirtual.Web.Models.ProdutoViewModel
 
 @{
     ViewData["Title"] = $"Produto - {Model.Titulo}";
@@ -7,50 +7,49 @@
 <h1>@ViewData["Title"]</h1>
 
 <h3>Quer realmente deletar o produto @Model.Titulo ?</h3>
-<div>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Titulo)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Titulo)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Valor)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Valor)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Imagem)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Imagem)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Categoria)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Categoria.Descricao)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Vendedor)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Vendedor.Nome)
-        </dd>
-    </dl>
 
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" />
-        <a asp-action="Index" class="btn btn-warning">Voltar</a>
-    </form>
+<div class="container my-4">
+    <div class="card">
+        <div class="card-body">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <b>@Html.DisplayNameFor(model => model.Titulo):</b> @Html.DisplayFor(model => model.Titulo)
+                    </div>
+
+                    <div class="mb-3">
+                        <b>@Html.DisplayNameFor(model => model.Descricao)</b>: @Html.DisplayFor(model => model.Descricao)
+                    </div>
+
+                    <div class="mb-3">
+                        <b>@Html.DisplayNameFor(model => model.Valor)</b>: @Model.Valor.ToString("C", new System.Globalization.CultureInfo("pt-BR"))
+                    </div>
+
+                    <div class="mb-3">
+                        <b>@Html.DisplayNameFor(model => model.Estoque)</b>: @Html.DisplayFor(model => model.Estoque)
+                    </div>
+
+                    <div class="mb-3">
+                        <b>@Html.DisplayNameFor(model => model.CategoriaId)</b>: @Html.DisplayFor(model => model.CategoriaStr)
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <img id="preview" src="@Model.ImagemUrl" class="img-thumbnail" style="max-height: 250px;" alt="Preview">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="mb-3 d-flex gap-2">
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="Id" />
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                        <a asp-action="Index" class="btn btn-warning">Voltar</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

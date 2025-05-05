@@ -62,14 +62,16 @@ C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\wwwroot\lib\bootstrap
 C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\images\02476981-a967-4ec1-969f-8db5f3f8092a_qr-code-inscricao-pg.png
 wwwroot\images\037773ac-c16e-4a98-8860-b1d67608b18c_Design sem nome.jpg
 wwwroot\images\2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg
+wwwroot\images\3f440d14-5db4-421a-bac2-40d8d316c855_ipadPro.jpeg
 wwwroot\images\4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg
 wwwroot\images\83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg
+wwwroot\images\9ee8afc2-e13f-4053-b802-b0fcf5fdf884_padrão-comupod-1080x1920 (1).jpg
 wwwroot\images\a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg
 wwwroot\images\ef0a69b2-8457-4ee5-b2f2-bcf7b5f8a0d2_ipadGeracao9.jpg
 wwwroot\images\ff0dbfc2-d629-499e-9607-a9eb9cb8af7f_ipadPro.jpeg
+wwwroot\images\placeholder.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

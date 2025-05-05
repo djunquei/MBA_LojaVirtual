@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iwfpYWhdXiHS18qhmNFcdh9fElSn3HILwk7dsS/56jc=",
+  "Hash": "8c6t6aLzbIJhClmmg3Yvj35bXJ24d/n152GOyuSP2ZI=",
   "Source": "LojaVirtual.Web",
   "BasePath": "_content/LojaVirtual.Web",
   "Mode": "Default",
@@ -4070,27 +4070,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\02476981-a967-4ec1-969f-8db5f3f8092a_qr-code-inscricao-pg.png",
-      "SourceId": "LojaVirtual.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\",
-      "BasePath": "_content/LojaVirtual.Web",
-      "RelativePath": "images/02476981-a967-4ec1-969f-8db5f3f8092a_qr-code-inscricao-pg#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "j7aezbimuc",
-      "Integrity": "L9omfndoYMJt6tXzdKsWZjMQmIdj7q17QHiLH1Bekv8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\02476981-a967-4ec1-969f-8db5f3f8092a_qr-code-inscricao-pg.png"
-    },
-    {
       "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\037773ac-c16e-4a98-8860-b1d67608b18c_Design sem nome.jpg",
       "SourceId": "LojaVirtual.Web",
       "SourceType": "Discovered",
@@ -4133,6 +4112,27 @@
       "OriginalItemSpec": "wwwroot\\images\\2f082d32-28a1-477d-8c08-312e5bdaafdf_ipadPro.jpeg"
     },
     {
+      "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\3f440d14-5db4-421a-bac2-40d8d316c855_ipadPro.jpeg",
+      "SourceId": "LojaVirtual.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\",
+      "BasePath": "_content/LojaVirtual.Web",
+      "RelativePath": "images/3f440d14-5db4-421a-bac2-40d8d316c855_ipadPro#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a0idyumt8t",
+      "Integrity": "atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3f440d14-5db4-421a-bac2-40d8d316c855_ipadPro.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\4e9debbc-077e-4f62-b3f4-2f98d2403f5c_iphone15.jpg",
       "SourceId": "LojaVirtual.Web",
       "SourceType": "Discovered",
@@ -4173,6 +4173,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\83aa5e4a-7d95-4c89-8abf-ba8da940952d_iphone15.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\9ee8afc2-e13f-4053-b802-b0fcf5fdf884_padrão-comupod-1080x1920 (1).jpg",
+      "SourceId": "LojaVirtual.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\",
+      "BasePath": "_content/LojaVirtual.Web",
+      "RelativePath": "images/9ee8afc2-e13f-4053-b802-b0fcf5fdf884_padrão-comupod-1080x1920 (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7iww7qxq8x",
+      "Integrity": "jwtPItpM/yZTmJYMdkWv+243Ek0VbNbxkKJ5OPXOc6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\9ee8afc2-e13f-4053-b802-b0fcf5fdf884_padrão-comupod-1080x1920 (1).jpg"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\a73ef993-ce30-43e5-8424-9842fef4d601_iphone16.jpg",
@@ -4236,6 +4257,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ff0dbfc2-d629-499e-9607-a9eb9cb8af7f_ipadPro.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\placeholder.png",
+      "SourceId": "LojaVirtual.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\",
+      "BasePath": "_content/LojaVirtual.Web",
+      "RelativePath": "images/placeholder#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "arp0nww1as",
+      "Integrity": "mkbTXcr/L/ax4lN6hVxY82un8h/3L56XRSrDClwyrHE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\placeholder.png"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\js\\site.js",
@@ -14722,88 +14764,6 @@
       ]
     },
     {
-      "Route": "images/02476981-a967-4ec1-969f-8db5f3f8092a_qr-code-inscricao-pg.j7aezbimuc.png",
-      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\02476981-a967-4ec1-969f-8db5f3f8092a_qr-code-inscricao-pg.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "27681"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"L9omfndoYMJt6tXzdKsWZjMQmIdj7q17QHiLH1Bekv8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 01:37:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "j7aezbimuc"
-        },
-        {
-          "Name": "label",
-          "Value": "images/02476981-a967-4ec1-969f-8db5f3f8092a_qr-code-inscricao-pg.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-L9omfndoYMJt6tXzdKsWZjMQmIdj7q17QHiLH1Bekv8="
-        }
-      ]
-    },
-    {
-      "Route": "images/02476981-a967-4ec1-969f-8db5f3f8092a_qr-code-inscricao-pg.png",
-      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\02476981-a967-4ec1-969f-8db5f3f8092a_qr-code-inscricao-pg.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "27681"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"L9omfndoYMJt6tXzdKsWZjMQmIdj7q17QHiLH1Bekv8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 01:37:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-L9omfndoYMJt6tXzdKsWZjMQmIdj7q17QHiLH1Bekv8="
-        }
-      ]
-    },
-    {
       "Route": "images/037773ac-c16e-4a98-8860-b1d67608b18c_Design sem nome.cfxl4wodm3.jpg",
       "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\037773ac-c16e-4a98-8860-b1d67608b18c_Design sem nome.jpg",
       "Selectors": [],
@@ -14954,6 +14914,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 07 Apr 2025 21:46:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/3f440d14-5db4-421a-bac2-40d8d316c855_ipadPro.a0idyumt8t.jpeg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\3f440d14-5db4-421a-bac2-40d8d316c855_ipadPro.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:17:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a0idyumt8t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3f440d14-5db4-421a-bac2-40d8d316c855_ipadPro.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/3f440d14-5db4-421a-bac2-40d8d316c855_ipadPro.jpeg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\3f440d14-5db4-421a-bac2-40d8d316c855_ipadPro.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:17:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15128,6 +15170,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-XdyFj1fyXAHEA5MiEvpenQBqnvbFP1rF/6TkpqI6wKY="
+        }
+      ]
+    },
+    {
+      "Route": "images/9ee8afc2-e13f-4053-b802-b0fcf5fdf884_padrão-comupod-1080x1920 (1).7iww7qxq8x.jpg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\9ee8afc2-e13f-4053-b802-b0fcf5fdf884_padrão-comupod-1080x1920 (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2876836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jwtPItpM/yZTmJYMdkWv+243Ek0VbNbxkKJ5OPXOc6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:17:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7iww7qxq8x"
+        },
+        {
+          "Name": "label",
+          "Value": "images/9ee8afc2-e13f-4053-b802-b0fcf5fdf884_padrão-comupod-1080x1920 (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jwtPItpM/yZTmJYMdkWv+243Ek0VbNbxkKJ5OPXOc6M="
+        }
+      ]
+    },
+    {
+      "Route": "images/9ee8afc2-e13f-4053-b802-b0fcf5fdf884_padrão-comupod-1080x1920 (1).jpg",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\9ee8afc2-e13f-4053-b802-b0fcf5fdf884_padrão-comupod-1080x1920 (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2876836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jwtPItpM/yZTmJYMdkWv+243Ek0VbNbxkKJ5OPXOc6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:17:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jwtPItpM/yZTmJYMdkWv+243Ek0VbNbxkKJ5OPXOc6M="
         }
       ]
     },
@@ -15374,6 +15498,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-atbkTvMGUoRkrBEPex/leIQeguoQIn9KM4tGDG3SxJ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/placeholder.arp0nww1as.png",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\placeholder.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mkbTXcr/L/ax4lN6hVxY82un8h/3L56XRSrDClwyrHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 18:23:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "arp0nww1as"
+        },
+        {
+          "Name": "label",
+          "Value": "images/placeholder.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mkbTXcr/L/ax4lN6hVxY82un8h/3L56XRSrDClwyrHE="
+        }
+      ]
+    },
+    {
+      "Route": "images/placeholder.png",
+      "AssetFile": "C:\\Users\\diego\\source\\repos\\LojaVirtual\\src\\LojaVirtual.UI\\wwwroot\\images\\placeholder.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mkbTXcr/L/ax4lN6hVxY82un8h/3L56XRSrDClwyrHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 18:23:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mkbTXcr/L/ax4lN6hVxY82un8h/3L56XRSrDClwyrHE="
         }
       ]
     },

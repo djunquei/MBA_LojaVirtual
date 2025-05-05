@@ -40,7 +40,16 @@ namespace LojaVirtual.Web.Controllers
                 return NotFound();
             }
 
-            return View(produto);
+            ProdutoViewModel produtoViewModel = new ProdutoViewModel();
+            produtoViewModel.Id = produto.Id;
+            produtoViewModel.Titulo = produto.Titulo;
+            produtoViewModel.Descricao = produto.Descricao;
+            produtoViewModel.Valor = produto.Valor;
+            produtoViewModel.Estoque = produto.Estoque;
+            produtoViewModel.CategoriaStr = produto.Categoria.Titulo;
+            produtoViewModel.ImagemUrl = produto.Imagem;
+
+            return View(produtoViewModel);
         }
 
         public async Task<IActionResult> Create()
@@ -56,6 +65,9 @@ namespace LojaVirtual.Web.Controllers
         public async Task<IActionResult> Create([Bind("Id,Titulo,Descricao,Valor,Estoque,Imagem,CategoriaId")] ProdutoViewModel produto)
         {
             Produto produtoDb = new Produto();
+
+            ModelState.Remove("ImagemUrl");
+            ModelState.Remove("CategoriaStr");
             if (ModelState.IsValid)
             {
                 if (produto.Imagem != null && produto.Imagem.Length > 0)
@@ -112,6 +124,7 @@ namespace LojaVirtual.Web.Controllers
             produtoViewModel.Valor = produto.Valor;
             produtoViewModel.Estoque = produto.Estoque;
             produtoViewModel.CategoriaId = produto.CategoriaId;
+            produtoViewModel.ImagemUrl = produto.Imagem;
 
             var categorias = await _categoriaRepository.GetAll();
             ViewData["CategoriaId"] = new SelectList(categorias, "Id", "Titulo");
@@ -135,6 +148,9 @@ namespace LojaVirtual.Web.Controllers
                 return NotFound();
             }
 
+            ModelState.Remove("Imagem");
+            ModelState.Remove("ImagemUrl");
+            ModelState.Remove("CategoriaStr");
             if (ModelState.IsValid)
             {
                 try
@@ -197,7 +213,16 @@ namespace LojaVirtual.Web.Controllers
                 return NotFound();
             }
 
-            return View(produto);
+            ProdutoViewModel produtoViewModel = new ProdutoViewModel();
+            produtoViewModel.Id = produto.Id;
+            produtoViewModel.Titulo = produto.Titulo;
+            produtoViewModel.Descricao = produto.Descricao;
+            produtoViewModel.Valor = produto.Valor;
+            produtoViewModel.Estoque = produto.Estoque;
+            produtoViewModel.CategoriaStr = produto.Categoria.Titulo;
+            produtoViewModel.ImagemUrl = produto.Imagem;
+
+            return View(produtoViewModel);
         }
 
         [HttpPost, ActionName("Delete")]

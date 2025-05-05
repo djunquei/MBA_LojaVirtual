@@ -1,2 +1,0 @@
-C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\wwwroot\lib\fontawesome\solid.css
-C:\Users\diego\source\repos\LojaVirtual\src\LojaVirtual.UI\wwwroot\lib\fontawesome\all.min.css
